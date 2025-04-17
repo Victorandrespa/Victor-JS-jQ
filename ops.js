@@ -1,3 +1,9 @@
 $("#btn-ocultar").on("click", function () {
-    $("#container-parrafos p").hide(); 
+    $("p").hide(); 
+});
+$("#btn-mostrar").on("click", function () {
+    $("p").show(); 
+});
+$("#btn-ocultarSlow").on("click", function () {
+    $("p").hide("slow"); 
 });
