@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery practica</title>
+</head>
+
+
+
+<body>
+
+
+    <main class="container min-vh-100" style="max-width: 1000px;">
+        <h4 class="my-3">Practica jQuery</h4>
+        <div class="row justify-content-center">
+            <div class="col-auto d-flex flex-column align-items-center">
+                <button type="button" class="btn btn-outline-dark my-2" id="btn-agregarFila"
+                    style="width: 250px; max-height: fit-content;">Agregar Fila</button>
+                <button type="button" class="btn btn-outline-danger my-2" id="btn-eliminarFila"
+                    style="width: 250px; max-height: fit-content;">Eliminar Ultima Fila</button>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <h3>Tabla</h3>
+            <div class="col-11">
+                <table class="table table-striped table-hover" id="containerTabla">
+                    <colgroup>
+                        <col style="width: 25%;">
+                        <col style="width: 35%;">
+                        <col style="width: 40%;">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>
+                                Carnet
+                            </th>
+                            <th>
+                                Nombre
+                            </th>
+                            <th>
+                                Correo
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> <input type="number" class="form-control" id="inputCarnet" placeholder="#">
+                            </td>
+                            <td> <input type="text" class="form-control" id="inputNombre" placeholder="nombre">
+                            </td>
+                            <td> <input type="email" class="form-control" id="inputCorreo"
+                                    placeholder="name@example.com"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </main>
+
+
+
+    <style>
+
+    </style>
+
+
+
+    <footer>
+        <br><br><br>
+        <hr>
+        <div class="d-flex justify-content-around flex-row">
+            <a href="index.html" class="btn btn-outline-dark"> Parrafos #1</a>
+            <a href="pagina2.html" class="btn btn-outline-dark active "> Tabla #2</a></button>
+            <a href="pagina3.html" class="btn btn-outline-dark "> Formulario #3</a></button>
+        </div>
+        <br><br>
+    </footer>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="animacion.js"></script>
+
+</body>
+
+</html>
